@@ -35,6 +35,7 @@ public class AppiumSetUp {
 		}
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		System.out.println("PlayStore Launched");
 		driver.quit();
 
 		
